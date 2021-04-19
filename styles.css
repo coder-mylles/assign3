@@ -5,30 +5,30 @@ body {
 h4{
   font-family: 'Merriweather', serif;
 }
-.intro {
-  background-image: url(logo.png);
+.introPg{
+  background-image: url(img1.jpg);
   background-size: cover;
   text-align: center;
   color: white;
 }
-.Dlogo {
+.dlogo {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-.MouseClick {
+.Mouse {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-.aboutUs {
+.about-us {
   text-align: center;
   color: black;
   font-size: small;
   font-family: 'Yantramanav', sans-serif;
 }
 .services {
-  background-image: url(backgrounds/s_image.jpg);
+  background-image: url();
   background-size: cover;
   text-align: center;
   color: white;
