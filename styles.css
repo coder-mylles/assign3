@@ -1,32 +1,25 @@
-.introPg{
-    background-image: url('img1.jpg');
-    background-position: center center;
+body {
+    background-color: white;
+  }
+  
+  h4{
+    font-family: 'Merriweather', serif;
+  }
+  .intro {
+    background-image: url(img1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
     text-align: center;
-    padding-top:17%; 
-    font-family: 'Gabriela', serif;
-    /* padding-bottom:5%; */
+    color: white;
   }
-  .landing h1{
-    padding: 2px;
-    margin: 5px;
+  .Dlogo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
-  .landing p{
-    padding: 2px;
-  }
-  #dlogo{
-    margin-top: 12px;
-    margin-bottom: 24px;
-    width: 70px;
-    height: 70px;;
-  }
-  #mouse-click{
-    padding-top : 22px;
-    margin-top: 10%;
-    padding-bottom: 30px; 
-    /* animation-iteration-count: infinite; */
+  .MouseClick {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   #mouse-click {
     animation: bounce 2s infinite;
@@ -50,9 +43,6 @@
     padding-top:40px;
     font-family: 'Copse', serif;
   }
-  #about{
-    font-family: 'Gabriela', serif;
-  }
   .services{
     text-align: center;
     background-image: url("img3.jpg");
@@ -60,7 +50,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Copse', serif;
+    
     font-size: 18px;
   }
   .services h2{
@@ -72,13 +62,15 @@
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  .what-we-do{
-    font-family: 'Quattrocento', serif;
+  .What_we_do{
+
     text-align: center;
     padding-top: 40px;
-    font-family: 'Gabriela', serif;
   }
-  .what-we-do .headings{
+   .row{
+  padding:2%;
+  }
+  .What_we_do .headings{
     padding-bottom: 38px;
   }
   #portfolio{
@@ -103,7 +95,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    /* text-align: center; */
+    
   }
   .title{
     padding: 6px;
@@ -181,7 +173,7 @@
       top: 20px;
       left: 16px;
       padding-top: 20%;
-      /* font-size: 16px; */
+     
     }
     .col-md-3 img{
       width:100%px;
@@ -195,11 +187,8 @@
       margin-left: 2%;
       padding-bottom: 30px;
       margin-bottom: 20px;
-      /* margin-left: 10px; */
-  
-      /* margin-right: -20%; */
     }
-  }
+  
   @media only screen and (max-width: 425px){
     #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
       width: 100%;
@@ -270,5 +259,5 @@
       margin-left:6%;
       margin-right: 10%; 
     }
+} 
   }
-  
