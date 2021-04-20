@@ -66,13 +66,10 @@ body {
 
     text-align: center;
     padding-top: 40px;
-  }
-   .row{
-  padding:2%;
-  }
+ }
   .What_we_do .headings{
     padding-bottom: 38px;
-  }
+  }  
   #portfolio{
     display: flex;
     flex-wrap: wrap;
