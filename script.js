@@ -12,11 +12,11 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#des-img").click(function(){
     $("#des-img").slideDown('1500').hide('1000');
-    $("#des").show('1500');
+    $("#design").show('1500');
   });
   $("#des-img").click(function(){
     $("#des").slideUp('1500');
-    $("#des-img").slideDown('1500');
+    $("#des").slideDown('1500');
   });
 });
 
