@@ -4,8 +4,8 @@ DELANI STUDIO
 Martin Mylles
 
 ## Description
-1. This website  is a basic outline of who i basically and just a few hobbies.
-2. It just gives the basic description of me and the little things that I like
+1. This website  that outlines the services of Delani studio 
+2. It just gives the basic platform and a sign up page where someone can sign up for the service
 
 ### Prerequisites
 1. You need to have git installed
